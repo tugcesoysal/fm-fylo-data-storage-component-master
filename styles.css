@@ -31,7 +31,7 @@ body {
 
 .icon-card {
   width: 90%;
-  max-width: 500px;
+  max-width: 400px;
   background-color: var(--card-bg);
   border-radius: 10px;
   border-top-right-radius: 50%;
@@ -166,8 +166,7 @@ body {
   body {
     background-color: var(--icon-bg);
     flex-direction: row;
-    align-items: center;
-    align-items: center;
+    align-items: end;
     background-image: url(./images/bg-desktop.png);
     background-repeat: no-repeat;
     background-position-y: 150%;
@@ -178,6 +177,7 @@ body {
 
   .icon-card {
     margin-top: 0;
+    padding: 60px;
   }
 
   .paragraph {
@@ -188,7 +188,7 @@ body {
     margin-left: 20px;
     padding-bottom: 0;
     align-items: flex-start;
-    padding: 25px 50px;
+    padding: 15px 50px;
   }
 
   .storage-left {
